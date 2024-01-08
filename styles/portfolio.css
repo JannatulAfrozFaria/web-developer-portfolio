@@ -182,10 +182,55 @@ main {
 
 
 /* resume section style */
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
 .resume-column-title {
     color: var(--Dark-02, #474747);
-    font-family: Open Sans;
     font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+}
+
+.resume-item-description {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume-container hr {
+    margin: 30px 30px 30px 0px;
+    width: 558px;
+    height: 1px;
+    background: #D1D1D1;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }

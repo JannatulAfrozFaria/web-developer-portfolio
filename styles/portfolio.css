@@ -100,13 +100,38 @@ nav a {
 }
 
 /* main-section Style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
 
 /* about-section Style */
 .about {
     padding: 131px 157px 131px 156px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px;
+    margin: 230px auto;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    margin-right: 20px;
+}
+.info-title {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-description {
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .section-title {

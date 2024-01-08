@@ -133,6 +133,12 @@ main {
     font-size: 20px;
     font-weight: 700;
 }
+#what-i-do{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+}
 
 .section-title {
     color: var(--Dark-01, #181818);
